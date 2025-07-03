@@ -20,17 +20,17 @@
 //public class Text3dSample {
 //
 //    public CSG toCSG(String text) {
-//        
+//
 //        double border = 5;
 //
 //        CSG text3d = new Text3d(text, "Arial", 12, 1).toCSG();
-//        
+//
 //        double boxWidth = text3d.getBounds().getBounds().x+border*2;
 //        double boxHeight = text3d.getBounds().getBounds().y+border*2;
 //        double boxDepth = text3d.getBounds().getBounds().z;
-//        
+//
 //        CSG box = new Cube(boxWidth, boxHeight, boxDepth).toCSG();
-//        
+//
 //        return box.difference(text3d);
 //    }
 //

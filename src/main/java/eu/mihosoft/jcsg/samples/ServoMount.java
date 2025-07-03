@@ -88,6 +88,7 @@ public class ServoMount {
     
         public static void main(String[] args) throws IOException {
 
+            System.out.println("hello");
         ServoMount sMount = new ServoMount();
 
         // save union as stl

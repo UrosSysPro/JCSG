@@ -420,7 +420,7 @@ class QuickHull3D
 		     { System.out.println ("Expecting face index");
 		       System.exit(1); 
 		     }
-		    indexList.add (0, new Integer((int)stok.nval));
+		    indexList.add (0, stok.nval);
 		  }
 		 faceIndices[i] = new int[indexList.size()];
 		 int k = 0;
