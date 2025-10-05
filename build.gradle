@@ -24,7 +24,6 @@ wrapper {
 
 repositories {
     mavenCentral()
-    jcenter()
     mavenLocal()
 }
 

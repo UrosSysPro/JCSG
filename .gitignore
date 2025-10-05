@@ -10,3 +10,4 @@
 /gradle/wrapper/gradle-wrapper.jar
 gradle/
 *.stl
+.metals/
